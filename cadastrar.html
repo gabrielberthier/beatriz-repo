@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Book.net</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container">
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="/index.html">Book.net</a>
+
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dashboard.html">Dashboard</a>
+              </li>
+              <!-- Navbar dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Gêneros
+                </a>
+                <!-- Dropdown menu -->
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item text-capitalize" href="#"
+                      >desenvolvimento</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-capitalize" href="#"
+                      >internet</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-capitalize" href="#"
+                      >banco de dados</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-capitalize" href="#">redes</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-capitalize" href="#"
+                      >sistemas operacionais</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Outros</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <!-- Left links -->
+
+            <!-- Search form -->
+            <form class="d-flex input-group w-auto">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Pesquisar"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+                data-mdb-ripple-color="dark"
+              >
+                Buscar
+              </button>
+            </form>
+
+            <ul class="navbar-nav ms-2 mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle dropstart"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  data-mdb-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Entrar
+                </a>
+                <div
+                  class="dropdown-menu p-3 login-box"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <form
+                    class="form-horizontal"
+                    method="post"
+                    accept-charset="UTF-8"
+                  >
+                    <legend>
+                      Login
+                      <span class="material-icons float-end mt-2"> login </span>
+                    </legend>
+                    <hr />
+                    <input
+                      class="form-control login mb-3"
+                      type="email"
+                      name="username"
+                      placeholder="Email"
+                    />
+                    <input
+                      class="form-control login mb-3"
+                      type="text"
+                      name="senha"
+                      placeholder="Senha"
+                    />
+                    <div class="d-flex justify-content-between">
+                      <a href="/cadastrar.html" class="text-uppercase pt-2"
+                        >cadastrar</a
+                      >
+                      <input
+                        class="btn btn-primary flex-end"
+                        type="button"
+                        name="submit"
+                        value="Entrar"
+                      />
+                    </div>
+                  </form>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Right Links -->
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form class="form md-form p-5">
+          <h1 class="mb-5">Cadastre-se</h1>
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline border-0">
+                <input
+                  type="text"
+                  id="form3Example1"
+                  class="form-control border-0"
+                />
+                <label class="form-label" for="form3Example1"
+                  >Primeiro nome</label
+                >
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="form3Example2" class="form-control" />
+                <label class="form-label" for="form3Example2">Sobrenome</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form3Example3" class="form-control" />
+            <label class="form-label" for="form3Example3">Email</label>
+          </div>
+
+          <!-- Password input -->
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline mb-4">
+                <input
+                  type="password"
+                  id="form3Example4"
+                  class="form-control"
+                />
+                <label class="form-label" for="form3Example4">Senha</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline mb-4">
+                <input
+                  type="password"
+                  id="form3Example4"
+                  class="form-control"
+                />
+                <label class="form-label" for="form3Example4"
+                  >Repita a Senha</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+              id="form2Example3"
+              checked
+            />
+            <label class="form-check-label" for="form2Example3">
+              Continuar ativo
+            </label>
+          </div>
+
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">
+            Cadastrar
+          </button>
+
+          <!-- Register buttons -->
+          <div class="text-center">
+            <p>Ou entre com:</p>
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+              <i class="fab fa-google"></i>
+            </button>
+
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+              <i class="fab fa-twitter"></i>
+            </button>
+
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+  </body>
+</html>
